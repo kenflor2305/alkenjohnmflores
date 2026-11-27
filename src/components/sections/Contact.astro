@@ -1,0 +1,49 @@
+
+<section id="contact" class="reveal min-h-[60vh]" aria-labelledby="contactTitle">
+    <h2 id="contactTitle" class="text-3xl font-bold text-pink-500 md:text-5xl">
+        Let's build together!
+    </h2>
+
+    <form
+        id="contactForm"
+        action="#contact"
+        class="mx-auto mt-8 flex max-w-xl flex-col gap-4 text-left"
+    >
+        <label for="name">Name</label>
+        <input
+            class="form-input"
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your name"
+            required
+        />
+
+        <label for="email">Email</label>
+        <input
+            class="form-input"
+            type="email"
+            id="email"
+            name="email"
+            placeholder="you@example.com"
+            required
+        />
+
+        <label for="message">Message</label>
+        <textarea
+            class="form-input"
+            id="message"
+            name="message"
+            rows="5"
+            placeholder="Tell me about your project..."
+            required></textarea
+        >
+
+        <button
+            class="rounded-[10px] bg-black px-6 py-3 text-white transition-colors duration-300 hover:bg-pink-400 hover:text-black dark:bg-slate-700"
+            type="submit"
+        >
+            Send Message
+        </button>
+    </form>
+</section>
